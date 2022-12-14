@@ -1,7 +1,7 @@
-import { ethers } from "hardhat";
+import {ethers} from "hardhat";
 
 const main = async () => {
-    const [signer] = await ethers.getSigners();
+	const [signer] = await ethers.getSigners();
 };
 
 main();
